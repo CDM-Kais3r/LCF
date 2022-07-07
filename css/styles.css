@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(fonts/Montserrat-Regular.ttf), url(fonts/Montserrat-Italic.ttf),
+    url(fonts/Montserrat-Bold.ttf), url(fonts/Montserrat-Light.ttf);
+}
+
+.fontMontserrat {
+  font-family: "poppins", sans-serif, arial;
+}
+
+.page-title-overlap {
+  padding-bottom: 6.375rem;
+}
+.page-title-overlap + * {
+  margin-top: -4.875rem;
+}
+.fs-base {
+  font-size: 1rem !important;
+}
+.text-accent {
+  color: #4e54c8 !important;
+}
+.fs-sm {
+  font-size: 0.875rem !important;
+}
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #000; 
+}
+
+#fundoEscuro {
+  position: absolute;
+  width: 100%;
+  height: 150%;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.3);
+  display: none;
+  z-index: 999 !important;
+}
+
+.bgMain {
+  background: url(../img/bg-main.jpg) no-repeat;
+  width: 100%;
+  height: 500px;
+}
+
+.b {
+ background-color: fff;
+ text-align:center;
+ border: 1px ridge;
+ border-color:#000;
+}
+
+.borda {
+ background-color: fff;
+ text-align:center;
+ border: 1px solid;
+ border-color:#000;
+ border-radius: 10px;
+}
+
+.linha {
+ border-color:black;
+}
+
+.cadastro{
+padding-top:15px;
+
+}
+
+input[type='file'] {
+  display: none
+}
+
+.input-DestaqueEmpresa label {
+  background-color: #3498db;
+  border-radius: 10px;
+  color: #fff;
+  margin: 10px;
+  padding: 6px 20px;
+  text-align:center;
+}
+
+.input-DestaqueEmpresa label:hover {
+  background-color: #2980b9
+}
+

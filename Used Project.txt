@@ -1,0 +1,42 @@
+Luciferina Linguagens Utilizadas:
+
+- HTML
+- CSS
+- JavaScript
+- PHP
+
+Frameworks:
+
+- Bootstrap v5.1.3
+- Bootstrap Icons v1.8.1
+
+Cores utilizadas:
+
+text-accent #4e54c8
+text-primary #0d6efd
+text-danger #dc3545
+text-success #198754
+text-info #0dcaf0
+text-warning #ffc107
+
+bg-light #f8f9fa
+bg-dark #212529
+
+body bg #fff
+
+- ScroolBar 
+	#f1f1f1
+	rgb 192, 52, 52
+	rgb 160, 31, 31
+
+- Fundo escuro
+	rgb 0, 0, 0 opacidade 0.3
+
+Fonte utilizada:
+
+MontSerrat
+	Regular
+	Italic
+	Bold
+	Light
+		Google fonts
